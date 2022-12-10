@@ -26,8 +26,7 @@ async def bot_start(message: types.Message):
     
     # await message.answer(f"Assalomu aleykum {message.from_user.full_name} Tarjimon botimizga xush kelibsiz tillarni sozlash uchun sozlamar tugmasini bosing!", reply_markup=Settings)
     await message.answer(f"Assalomu aleykum {message.from_user.full_name} universal botimizga xush kelibsiz \n"
-                         f"botimizda turli funksiyalar mavjud Lotincha xabar yuborsangiz Kirilcha va Kirilcha yuborsangz Lotin qaytaradi"
-                         f"sozlamalar tugmasi orqali tarjimon va valyuta kursini bilsa boladi", reply_markup=setting)
+                         f"mazkur bot orqali Valyuta kursini bilishingiz mumkin", reply_markup=setting)
     # Adminga xabar beramiz
     count = db.count_users()[0]
     msg = f"{message.from_user.full_name} @{message.from_user.username} bazaga qo'shildi.\nBazada {count} ta foydalanuvchi bor."
