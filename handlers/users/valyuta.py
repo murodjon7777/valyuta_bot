@@ -19,5 +19,5 @@ async def valyuta(message:types.Message):
     await message.answer(text=f"{r[0]['CcyNm_UZ']}\n1{r[0]['Ccy']}={usd} so\'m   o\'zgarish {r[0]['Diff']}so\'m \n"
                          f"{r[1]['CcyNm_UZ']}\n{r[0]['Ccy']}={eur} so\'m  o\'zgarish {r[1]['Diff']}so\'m\n"
                          f"{r[2]['CcyNm_UZ']}\n{r[0]['Ccy']}= {rubl} so\'m  o\'zgarish {r[2]['Diff']}so\'m\n"
-                         f"🕒 Sana {r[0]['Date']}"
+                         f"🕒 Sana {r[0]['Date']} \n"
                          f"🤖 @valyutaa1bot - Markaziy bank valyuta kurslari")
